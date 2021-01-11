@@ -1,0 +1,87 @@
+@import "src/styles/mixins";
+
+.text {
+  font-family: map-get($fonts, "regular");
+  font-style: normal;
+}
+
+.textLight {
+  font-family: map-get($fonts, "bold");
+  font-weight: 300;
+}
+
+.textBold {
+  font-family: map-get($fonts, "bold");
+  font-weight: bold;
+}
+
+.textLight {
+  font-family: map-get($fonts, "regular");
+  font-weight: 300;
+}
+
+.textItalic {
+  font-style: italic;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textPrimary {
+  color: map-get($colors, "primary");
+}
+
+.textDark {
+  color: map-get($colors, "dark");
+}
+
+.textDanger {
+  color: map-get($colors, "danger");
+}
+
+.textWhite {
+  color: map-get($colors, "white");
+}
+
+.textError {
+  color: map-get($colors, "danger");
+}
+
+.textBlack {
+  color: map-get($colors, "black");
+}
+
+.textDark {
+  color: map-get($colors, "dark");
+}
+
+.textUnderline {
+  text-decoration: underline;
+  text-decoration-color: map-get($colors, "primary");
+}
+
+.textDarkUnderline {
+  text-decoration: underline;
+  text-decoration-color: map-get($colors, "dark");
+}
+
+.textSuccess {
+  color: map-get($colors, "success");
+}
+
+.textWarn {
+  color: map-get($colors, "warning");
+}
+
+.textGroupStore {
+  color: map-get($colors, "sky-blue");
+}
+
+.textWistful {
+  color: map-get($colors, "wistful");
+}

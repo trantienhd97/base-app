@@ -1,0 +1,50 @@
+$spacing: 16px;
+
+$login-spacing: 25px;
+
+$border-radius: 10px;
+
+$base-line: 48px;
+
+$colors: (
+        "white": #FFFFFF,
+        "black": #0D3F67,
+        "primary": #BC2C3D,
+        "info": #40BFFF,
+        "success": #27AE60,
+        "danger": #BC2C3D,
+        "warning": #FCB800,
+        "dark": #223263,
+        "light-gray": #F5F5FA,
+        "secondary": #50555C,
+        "sky-blue": #2D9CDB,
+        "wistful": #8181A5,
+        "filter-highlighted": #BA3030,
+        "gray": #E5E5E5,
+        "black-base": #000000,
+        "gray-background": #FAFAFC,
+        "blue": #2D9CDB,
+        "light-red": #FEF0F0,
+        "light-dark": #DEE3FF,
+        "blue-init-status": #5C78FF,
+);
+
+$border-color: #F0F0F3;
+
+$border-radio: #9B9B9B;
+
+$fonts: (
+        "regular": SVN-GilroyLight,
+        "bold": SVN-GilroyBold,
+);
+
+$button-border-radius: $base-line * 0.5;
+
+$border-medium-radius: 20px;
+
+$font-default: 14px;
+
+$button-box-shadow: 0 0 4px rgba(165, 31, 31, 0.8);
+
+$border-color: #F0F0F3;
+

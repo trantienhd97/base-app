@@ -1,0 +1,33 @@
+@import "src/styles/mixins";
+@import "src/styles/partials/text";
+
+@mixin input() {
+  border: 1px solid rgba(228, 228, 228, 0.8);
+  background: map-get($colors, "white");
+  border-radius: $border-radius;
+  height: $base-line;
+}
+
+.input {
+  @include input();
+}
+
+.inputError {
+  border: 1px solid map-get($colors, "primary");
+}
+
+.inputContainer {
+  @include input();
+  flex-direction: row;
+  align-items: center;
+  @extend .px8px;
+  @extend .my8px;
+  border-radius: $button-border-radius;
+}
+
+.inlineInput {
+  @extend .text;
+  @extend .py0;
+  height: $base-line;
+  flex-grow: 1;
+}

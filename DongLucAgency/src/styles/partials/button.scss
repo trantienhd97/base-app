@@ -1,0 +1,28 @@
+@import "src/styles/mixins";
+@import "src/styles/partials/flexbox";
+@import "src/styles/partials/layout";
+@import "src/styles/partials/text";
+@import "src/styles/partials/typography";
+
+.button {
+  @extend .w100;
+  @extend .flexRow;
+  @extend .bgPrimary;
+  @extend .selfCenter;
+  @extend .justifyContentCenter;
+  @extend .alignItemsCenter;
+  @extend .p8px;
+  display: flex;
+  border-radius: $button-border-radius;
+  box-shadow: 0 0 15px rgba(188, 44, 61, 0.3);
+  elevation: elevation(60deg);
+}
+
+.buttonText {
+  @extend .selfCenter;
+  @extend .text;
+  @extend .textLight;
+  @extend .textWhite;
+  font-size: 16px;
+  line-height: 16px * 1.8;
+}
